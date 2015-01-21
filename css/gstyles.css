@@ -1,0 +1,155 @@
+body {
+    width: 1000px;
+    padding-bottom: 150px;
+}
+#front {
+    position: absolute;
+    top: 115px;
+    left: 325px;
+}
+.navContainer {
+    position: fixed;
+    font-family: Courier, sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    top: 455px;
+    left: 80px;
+    line-height: 18px;
+}
+.content {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: lighter
+}
+.cycle-slideshow {
+    position: relative;
+    top: 115px;
+    left: 325px;
+    width: 675px;
+}
+/*WDKYMMS*/
+
+.horizon {
+    position: relative;
+    left: 325px;
+    width: 1000px;
+    height: 790px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    z-index: 1;
+}
+.images {
+    width: 10550px;
+    /*background-color: purple;*/
+}
+.images #aos {
+    max-height: 810px;
+    padding: 0 80px 120px 30px;
+}
+.images #guestlist {
+    padding: 0 80px 250px 100px;
+}
+.images #bonny {
+    padding: 0 50px 250px 50px;
+}
+.images #glass {
+    padding: 0 80px 250px 50px;
+}
+.images .middled {
+    padding: 0 50px 250px 65px;
+}
+.images .taped {
+    padding: 0 0px 250px 50px;
+}
+.images #tank {
+    padding: 0 100px 240px 130px;
+}
+.images #corner_display {
+    padding: 0 50px 300px 50px;
+}
+.images .wider {
+    padding: 0 75px 275px 50px;
+}
+/*UNTITLED*/
+
+.untitled {
+    position: relative;
+    top: 10px;
+    left: 325px;
+    width: 1000px;
+    height: 725px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.imagesU {
+    width: 2400px;
+}
+.imagesU img {
+    padding-right: 100px;
+}
+.imagesU #upUnt {
+    padding-bottom: 150px;
+}
+.imagesU #upUnt2 {
+    padding-bottom: 100px;
+}
+.materials {
+    position: absolute;
+    display: inline;
+    font-family: Courier, sans-serif;
+    font-weight: lighter;
+    font-size: 11px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.materials #u1 {
+    position: absolute;
+    width: 330px;
+    left: 333px;
+    padding-bottom: 100px
+}
+.materials #u2 {
+    position: absolute;
+    width: 200px;
+    left: 675px;
+}
+.materials #u3 {
+    position: absolute;
+    width: 300px;
+    left: 900px;
+}
+.buttons {
+    cursor: pointer;
+    position: absolute;
+    display: inline;
+    top: 100px;
+    left: 333px;
+    font-family: Courier, sans-serif;
+    font-size: 11px;
+}
+.buttons p {
+    cursor: default;
+    display: inline;
+}
+.next {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #000000;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    color: #000000;
+}
+a.expander:hover {
+    text-decoration: underline;
+
+}
+#activeLink {
+    opacity: 0.5;
+}
